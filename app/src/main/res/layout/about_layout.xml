@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/back">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Application Created by :"
+    android:textStyle="bold"
+    android:layout_margin="8dp"
+    android:padding="4dp"
+    android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:padding="4dp"
+        android:layout_margin="8dp"
+        android:textStyle="italic"
+        android:text=" 1) Sumedh Pawar \n 2) Sai Ramtirth \n 3) Anagha Phirke \n 4) Sanika Patki \n 5) Dhanraj Tijare"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guide: Prof.Pravin Rathod"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:padding="4dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="# Mini Project Sem-3, VIT Pune \n   SY, Div G "
+        android:textSize="24dp"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        />
+</LinearLayout>
